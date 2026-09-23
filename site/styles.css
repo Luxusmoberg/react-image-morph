@@ -1,0 +1,48 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #0c0c0a;
+  color: #e8e4da;
+  font-family: "Inter Tight", system-ui, -apple-system, "Helvetica Neue", sans-serif;
+  font-feature-settings: "ss01", "cv11";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  --bg: #0c0c0a;
+  --fg: #e8e4da;
+  --fg-dim: #b6b0a3;
+  --fg-faint: #6b6760;
+  --accent: #c86e46;
+  --border: #2a2a26;
+  --surface: #161613;
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--bg);
+}
+
+code, pre {
+  font-family: "JetBrains Mono", ui-monospace, "SF Mono", monospace;
+  font-size: 0.85em;
+}

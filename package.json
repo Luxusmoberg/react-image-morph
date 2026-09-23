@@ -15,11 +15,12 @@
   "files": ["dist", "README.md"],
   "sideEffects": false,
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --config vite.site.config.ts",
     "build:demo": "vite build",
+    "build:site": "vite build --config vite.site.config.ts",
     "build:lib": "vite build --config vite.lib.config.ts && tsc -p tsconfig.build.json",
     "build": "npm run build:lib",
-    "preview": "vite preview"
+    "preview": "vite preview --config vite.site.config.ts"
   },
   "keywords": [
     "react",
@@ -36,6 +37,7 @@
     "react": ">=18"
   },
   "devDependencies": {
+    "@types/node": "^22.10.2",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
     "@vitejs/plugin-react": "^4.3.4",
