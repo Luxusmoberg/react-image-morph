@@ -4,6 +4,8 @@
 
 Drop in two image URLs, get a buttery crossfade — on scroll, on hover, or anywhere in between. Pure CSS blending, GPU-composited, ~2.7 KB.
 
+**👉 [Live demo: luxusmoberg.github.io/react-image-morph](https://luxusmoberg.github.io/react-image-morph/)**
+
 ```tsx
 import { ImageMorph } from "react-image-morph";
 
@@ -103,3 +105,9 @@ Compositor-thread opacity is *free* on every device shipped in the last decade. 
 ## License
 
 MIT © Lucas Poulsen
+
+## Links
+
+- [Live demo](https://luxusmoberg.github.io/react-image-morph/)
+- [GitHub repo](https://github.com/Luxusmoberg/react-image-morph)
+- [npm package](https://www.npmjs.com/package/react-image-morph) *(publish after first star or PR — open an issue if you want it now)*
